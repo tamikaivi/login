@@ -4,11 +4,17 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="?attr/colorPrimary" />
+
     <EditText
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="200dp"
         android:hint="Ingresar Usuario"
         tools:ignore="Suspicious0dp" />
 
@@ -24,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
-        android:text="Iniciar Sesión"/>
+        android:text="Iniciar Sesión"
+        android:id="@+id/btnIniciarSesion"/>
 
 </LinearLayout>

@@ -1,12 +1,9 @@
 name: CI
-
 on: [push]
-
 jobs:
   prueba:
     name: Prueba comando
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v1
     - name: listado
